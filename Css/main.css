@@ -1,0 +1,112 @@
+:root {
+    scroll-behavior: auto;
+}
+header {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)),
+    url(../imgs/Home\ \(1\).jpg);
+    background-size: cover;
+}
+header h1 {
+    font-size: 60px;
+}
+
+.sec-2 h3 {
+background-color: #E68285;
+padding: 10px;
+margin: 0;
+cursor: pointer;
+color: white;
+}
+
+.slideDown  {
+    background-color: #CCCCCC;
+    margin-bottom: 0;
+    padding: 20px;
+    display: none;
+}
+
+/* Section 3 */
+
+.sec-3 {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.6), rgba(214, 46, 51, 0.6)),
+    url(../imgs/invite.jpg);
+    background-size: 100% 100%;
+}
+
+/* Section 4 */
+
+.fab {
+    margin-right: 10px;
+    border: 1px solid #999;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    transition: all .5s;
+}
+
+.fab:hover {
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+
+.top h4 {
+    text-transform: uppercase;
+    font-size: 35px;
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.col-md-6 p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #777;
+}
+
+.top p {
+    color: #777;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.col-md-6 .info-head {
+    color: #444;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+#leftMenu {
+    width: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: width 0.5s;
+    padding-top: 60px;
+    z-index: 1;
+}
+
+.sideBar a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.5s;
+    color: white;
+}
+
+.sideBar a:hover {
+    color: red;
+}
+
+#open {
+    transition: left 0.5s;
+    left: 0;
+    z-index: 2;
+    position: absolute;
+}
+
